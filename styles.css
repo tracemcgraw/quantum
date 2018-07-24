@@ -169,6 +169,17 @@ div.scrollmenu img:hover {
     padding-top: 10%;
 }
 
+.hospitalityTitle{
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
 ::-webkit-scrollbar {
     display: none;
     }
+ .multiTitle{
+     text-align: center;
+     padding: 15%;
+ }
+ 
