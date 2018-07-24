@@ -163,6 +163,12 @@ div.scrollmenu img {
 div.scrollmenu img:hover {
     background-color: #777;
 }
+
+.storageTitle{
+    text-align: center;
+    padding-top: 10%;
+}
+
 ::-webkit-scrollbar {
     display: none;
     }
