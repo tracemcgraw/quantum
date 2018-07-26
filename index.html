@@ -21,55 +21,49 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <script>
+        $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+    </script>
     <title>Quantum Property Advisors</title>
 </head>
 <body>
-        <div class="container">
-                <div class="row">
-                  <div class="col-sm-6" >
-                        <div style="position: relative; width: 300px; margin: 0px; top: 0;">
-                                <img id="logoQ" src="images/logo1.jpg" alt="Quantum Property Advisor" style=" width: 250px;">
-                            </div>
+    <!-- <img src="images/Logo.png" style="z-index: 10;" alt=""> -->
+        <nav class="navbar navbar-default" style=" position: fixed; margin: 0">
+                <div class="container-fluid" style="height: 70px;">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                    </a>
                   </div>
-                  <div class="col-sm-6" style="top: 50px;">
-                        <div style=" position: relative; text-align: right; right: 10px; z-index: 9999;">
-                                <div>
-                                    <i class="fas fa-phone-square" id="tel-fas">            
-                                        <a href="tel:602.562.5500" class="tel">602-562-5500</a>    
-                                    </i>
-                                </div>
-                            </div>
-                        <nav class="navbar navbar-default" style=" position: relative;">
-                                <div class="container-fluid" style="height: 70px; background-color: rgb(4, 48, 48); padding: 0; padding-right: 0;">
-                                  <!-- Brand and toggle get grouped for better mobile display -->
-                                  <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true">
-                                      <span class="sr-only">Toggle navigation</span>
-                                      <span class="icon-bar"></span>
-                                      <span class="icon-bar"></span>
-                                      <span class="icon-bar"></span>
-                                    </button>
-                                    <a class="navbar-brand" href="#">
-                                    </a>
-                                  </div>
-                              
-                                  <!-- Collect the nav links, forms, and other content for toggling -->
-                                  <div class="collapse navbar-collapse" style="padding-right: 0px;" id="nav">
-                                    <ul class="nav navbar-nav" id="nav" style="float: right;">
-                                      <li class="active" style="margin-left: 0;"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                                      <li><a href="#servicesTitle">Services</a></li>
-                                      <li><a href="">About</a></li>
-                                      <li><a href="">Experience</a></li>
-                                      <li><a href="">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" style="padding-right: 0px;" id="nav">
+                    <ul class="nav navbar-nav" id="nav" style="margin-left: 150px;">
+                      <li class="active" style="margin-left: 0;"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                      <li><a href="#servicesTitle">Services</a></li>
+                      <li><a href="">About</a></li>
+                      <li><a href="">Experience</a></li>
+                      <li><a href="">Contact</a></li>
+                    </ul>
+                    <i class="fas fa-phone-square" style="float: right; margin-top: 20px;" id="tel-fas">            
+                            <a href="tel:602.562.5500" class="tel">602-562-5500</a>    
+                    </i>
                 </div>
-              </div>
-              <div class="container" style="width: 100%;">
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            </div>
+        </nav>
+              <div class="container" style="width: 100%; position: relative; bottom: 100%; padding: 0;">
+                    <div id="myCarousel" style="margin-top: 0;" class="carousel slide" data-ride="carousel">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
