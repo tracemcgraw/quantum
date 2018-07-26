@@ -318,10 +318,18 @@ div.scrollmenu img:hover {
         margin-top: 10%;
     }
     #menu-footer-menu li a{
+        position: relative;
         color: white;
         text-decoration: none;
-        font-size: 1.2em;
+        font-size: 1.3em;
         padding: 2px;
+        top: 10px;
+        text-align: center !important;
         
+    }
+    #copyright{
+        position: relative;
+        font-size: 9px;
+        top: 160px !important;
     }
 }
