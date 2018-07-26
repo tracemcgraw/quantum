@@ -283,6 +283,9 @@ div.scrollmenu img:hover {
       .carousel .item {
         height: 230px;
       }
+      .info{
+          text-align: center !important;
+      }
     .scrollmenu{
         width: 300px !important;
     }
@@ -297,6 +300,23 @@ div.scrollmenu img:hover {
         margin-bottom: 20px;
         
       }
+      .clientsTitle{
+        text-align: center;
+        padding-top: 5%;
+        margin-bottom: 10%;
+    }
+      .storageTitle{
+        text-align: center;
+        padding: 10%;
+        margin-top: 10%;
+       
+    }
+    
+    .hospitalityTitle{
+        text-align: center;
+        padding: 10%;
+        margin-top: 10%;
+    }
     #menu-footer-menu li a{
         color: white;
         text-decoration: none;
