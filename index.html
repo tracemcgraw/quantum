@@ -29,6 +29,21 @@
   });
 });
     </script>
+    <script>
+            window.onscroll = function() {
+              growShrinkLogo()
+            };
+            
+            function growShrinkLogo() {
+              var Logo = document.getElementById("Logo")
+              if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+                Logo.style.width = '50px';
+              } else {
+                Logo.style.width = '250px';
+              }
+            }
+            </script>
+            
     <title>Quantum Property Advisors</title>
 </head>
 <body>
@@ -45,8 +60,8 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#" style="z-index: 9999; width: 150px; position: relative; left: 100px;" >
-                        <img src="images/qpLogo.png" style="width: 250px;" alt="Quantum Property Advisors Logo">
+                    <a class="navbar-brand" href="#" style="z-index: 9999; width: 150px; padding-top: 10px; position: relative; left: 100px;" >
+                        <img src="images/qpLogo.png" id="Logo" style="width: 250px;" alt="Quantum Property Advisors Logo">
                     </a>
                   </div>
               
@@ -112,36 +127,39 @@
                   <div class="container-fluid">
                         <div class="col-md-4 col-sm-4 col-xs-12 respmrgbt">
                                 <div class="row">
-                                        <h2 style="text-align: center;">Real Estate Brokerage</h2>
-                                    <div class="column" style="margin: auto;">
-                                        <img src="images/a44.jpg" alt="Avatar" class="image">
-                                        <div class="middle">
+                                    <div class="column card" style="margin: auto;">
+                                            <i class="fas fa-hotel"></i>
+                                            <h2 style="text-align: center;">Real Estate Brokerage</h2>
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est corrupti fugit porro, praesentium at harum excepturi sed voluptas veniam ipsam, nam totam ut voluptates non dolore sit expedita, in ex.</p>
+                                        <!-- <div class="middle">
                                           <div class="text">Real estate is really important.</div>
-                                        </div>
+                                        </div> -->
                                       </div>
                                 </div>
                           
                               </div>
                               <div class="col-md-4 col-sm-4 col-xs-12 respmrgbt">
                                 <div class="row">
-                                        <h2 style="text-align: center;">Seller and Buyer Representation</h2>
-                                    <div class="column" style="margin: auto;">
-                                        <img src="images/a44.jpg" alt="Avatar" class="image">
-                                        <div class="middle">
+                                    <div class="column card" style="margin: auto;">
+                                            <i class="fas fa-project-diagram"></i>
+                                            <h2 style="text-align: center;">Seller and Buyer Representation</h2>
+                                            <p style="padding-top: 8%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est corrupti fugit porro, praesentium at harum excepturi sed voluptas veniam ipsam, nam totam ut voluptates non dolore sit expedita, in ex.</p>
+                                        <!-- <div class="middle">
                                           <div class="text">Real estate is really cool.</div>
-                                        </div>
+                                        </div> -->
                                       </div>
                                 </div>
                                   
                               </div>
                               <div class="col-md-4 col-sm-4 col-xs-12 respmrgbt">
                                 <div class="row">
-                                        <h2 style="text-align: center;">Financial Analysis</h2>
-                                    <div class="column" style="margin: auto;">
-                                        <img src="images/a44.jpg" alt="Avatar" class="image">
-                                        <div class="middle">
+                                    <div class="column card" style="margin: auto;">
+                                            <i class="fas fa-money-check-alt"></i>
+                                            <h2 style="text-align: center;">Financial Analysis</h2>
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est corrupti fugit porro, praesentium at harum excepturi sed voluptas veniam ipsam, nam totam ut voluptates non dolore sit expedita, in ex.</p>
+                                        <!-- <div class="middle">
                                           <div class="text">We give the best advice!</div>
-                                        </div>
+                                        </div> -->
                                       </div>
                                 </div>
                                  

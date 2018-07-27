@@ -38,8 +38,9 @@
 } */
 .navbar.scrolled {
     background-color: rgba(59, 57, 57, 0.61) !important;
-    transition: background-color 600ms linear;
+    transition: background-color 600ms linear, box-shadow 6s linear;
     opacity: 5;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
 .navbar .navbar-nav {
@@ -116,6 +117,7 @@
   .carousel-indicators li { visibility: hidden; }
   .carousel {
       height: 650px;
+      box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .carousel .item {
     height: 650px;
@@ -131,11 +133,56 @@
 .servicesTitle h1{
     text-align: center;
     font-size: 50px;
+    padding-top: 2%;
+    margin-bottom: 5%;
+    text-shadow: 2px 2px 4px #696666bd;
 }  
   .column {
     position: relative;
     width: 70%;
 }
+.card{
+    transition-property: all;
+    border: 2px solid grey;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all;
+    
+
+}
+.card i{
+    font-size: 60px;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    color: rgb(196, 126, 47);
+    text-shadow: 2px 2px 4px #696666bd;
+    transition: 1s;
+    transform: rotate(0deg);
+
+    
+}
+.card p{
+    padding: 13%;
+    padding-top: 15%;
+
+}
+.card:hover{
+    border: solid 4px rgb(197, 145, 86);
+    color: rgb(196, 126, 47);
+    transition: all .7s;
+    transform: scale(1.05);
+    background-color: rgb(55, 130, 133) !important;
+    text-shadow: 2px 2px 4px #464545bd;
+    
+
+
+}
+.card i:hover{
+    transform: rotate(360deg);
+}
+
 
 .image {
   opacity: 1;
