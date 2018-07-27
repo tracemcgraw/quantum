@@ -25,6 +25,17 @@
     border: transparent !important;
     z-index: 15; 
 }
+/* .navbar-brand{
+    background-image: url('images/qpLogo.png');
+    background-size: 100%;
+    z-index: 20;
+    display: block;
+    width: 44px;
+    height: 144px;
+    padding: 0;
+    /* top: 23px;
+    left: 55px; 
+} */
 .navbar.scrolled {
     background-color: rgba(59, 57, 57, 0.61) !important;
     transition: background-color 600ms linear;
