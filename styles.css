@@ -6,6 +6,9 @@
 * {
   font-family: 'Didact Gothic', sans-serif;
 }
+body{
+    background-color: rgba(240, 235, 235, 0.747) !important;
+}
 #tel-fas{
     font-size: 15px;
     color: rgb(196, 126, 47);
@@ -135,7 +138,7 @@
     font-size: 50px;
     padding-top: 2%;
     margin-bottom: 5%;
-    text-shadow: 2px 2px 4px #696666bd;
+    text-shadow: 2px 2px 4px #9c9999bd;
 }  
   .column {
     position: relative;
@@ -149,6 +152,7 @@
     text-align: center;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all;
+    background-color: white;
     
 
 }
@@ -160,6 +164,7 @@
     text-shadow: 2px 2px 4px #696666bd;
     transition: .5s;
     transform: rotate(0deg);
+    
 
     
 }
@@ -180,17 +185,16 @@
 
 }
 .card i:hover{
-    transform: rotate(360deg);
+    transform: rotateY(360deg);
 }
-
-
 .image {
   opacity: 1;
   display: block;
   width: 100%;
-  height: auto;
+  height: 264px;
   transition: .5s ease;
   backface-visibility: hidden;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .middle {
@@ -206,7 +210,8 @@
 
 .column:hover .image {
   opacity: 0.3;
-  background-color: aqua;
+  transform: scale(1.2);
+  /* background-color: rgb(196, 126, 47); */
 }
 
 .column:hover .middle {
@@ -215,10 +220,12 @@
 }
 
 .text {
-  background-color:  rgb(37, 114, 116);
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+  /* background-color:  rgb(37, 114, 116); */
+  color:  rgb(37, 114, 116);
+  text-shadow: 2px 2px 4px #757474bd;
+
+  /* font-size: 16px;
+  padding: 16px 32px; */
 }
 
 .clientsTitle{
@@ -255,8 +262,12 @@ div.scrollmenu img:hover {
 
 .hospitalityTitle{
     text-align: center;
-    padding-top: 15%;
+    padding-top: 7%;
     padding-bottom: 5%;
+    text-shadow: 2px 2px 4px #9c9999bd;
+}
+.hospitalityTitle h1{
+    font-size: 50px;
 }
 
 ::-webkit-scrollbar {
@@ -264,7 +275,12 @@ div.scrollmenu img:hover {
     }
  .multiTitle{
      text-align: center;
-     padding: 15%;
+     padding: 7%;
+ }
+ .multiTitle h1{
+     font-size: 50px;
+     text-shadow: 2px 2px 4px #9c9999bd;
+
  }
  .container-footer{
      background-color: rgb(4, 48, 48);
