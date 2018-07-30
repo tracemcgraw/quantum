@@ -133,7 +133,39 @@ body{
     margin: auto;
   } */
 .aboutTitle{
-    color: rgb(37, 114, 116);
+    color: rgb(196, 126, 47);
+    font-size: 45px;
+}
+.norm-bio{
+    background-repeat: no-repeat;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.norm-bio h4{
+    color: rgb(196, 126, 47);
+}
+.norm-bio h5{
+    color: rgb(196, 126, 47);
+}
+.norm-bio a{
+    color: rgb(196, 126, 47);
+}
+.norm-bio p{
+    color: white;
+    font-size: 19px;
+}
+.overlayAbout .container{
+    background: rgba(39, 62, 84, .65);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 .servicesTitle h1{
     color: rgb(37, 114, 116);
