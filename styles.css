@@ -6,9 +6,9 @@
 * {
   font-family: 'Didact Gothic', sans-serif;
 }
-body{
+/* body{
     background-color: rgba(240, 235, 235, 0.747) !important;
-}
+} */
 #tel-fas{
     font-size: 15px;
     color: rgb(196, 126, 47);
@@ -143,6 +143,7 @@ body{
     background-position: center;
     background-size: cover;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5%;
 
 }
 .norm-bio h4{
@@ -159,7 +160,7 @@ body{
     font-size: 19px;
 }
 .overlayAbout .container{
-    background: rgba(39, 62, 84, .65);
+    background: rgba(39, 62, 84, .55);
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -212,13 +213,11 @@ body{
 .card:hover{
     border: solid 4px rgb(197, 145, 86);
     color: rgb(196, 126, 47);
-    transition: all .7s;
-    transform: scale(1.05);
+    transition: all .45s;
+    transform: scale(1.08);
     background-color: rgb(55, 130, 133) !important;
     text-shadow: 2px 2px 4px #464545bd;
-    
-
-
+    /* transform: rotateY(360deg); */
 }
 .card i:hover{
     transform: rotateY(360deg);
@@ -269,13 +268,22 @@ body{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 3%;
+    text-shadow: 2px 2px 4px #9c9999bd;
+}
+
+#scroll1 img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    
 }
 
 div.scrollmenu {
-    background-color: #333;
+    background-color: white;
     overflow: auto;
     white-space: nowrap;
-    width: 1000px;
+    width: 920px;
+    height: 150px;;
     margin: auto;
     
 }
