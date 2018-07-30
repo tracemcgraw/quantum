@@ -182,7 +182,7 @@
 }
 .card{
     transition-property: all;
-    border: 2px solid grey;
+    border: 2px solid rgb(55, 130, 133);
     width: 400px;
     height: 450px;
     text-align: center;
