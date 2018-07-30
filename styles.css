@@ -132,8 +132,11 @@ body{
     background-color: rgb(37, 114, 116);
     margin: auto;
   } */
-
+.aboutTitle{
+    color: rgb(37, 114, 116);
+}
 .servicesTitle h1{
+    color: rgb(37, 114, 116);
     text-align: center;
     font-size: 50px;
     padding-top: 2%;
@@ -229,6 +232,7 @@ body{
 }
 
 .clientsTitle{
+    color: rgb(37, 114, 116);
     text-align: center;
     padding-top: 5%;
     padding-bottom: 3%;
@@ -256,11 +260,13 @@ div.scrollmenu img:hover {
 }
 
 .storageTitle{
+    color: rgb(37, 114, 116);
     text-align: center;
     padding-top: 10%;
 }
 
 .hospitalityTitle{
+    color: rgb(37, 114, 116);
     text-align: center;
     padding-top: 7%;
     padding-bottom: 5%;
@@ -278,6 +284,7 @@ div.scrollmenu img:hover {
      padding: 7%;
  }
  .multiTitle h1{
+     color: rgb(37, 114, 116);
      font-size: 50px;
      text-shadow: 2px 2px 4px #9c9999bd;
 
