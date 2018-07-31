@@ -535,6 +535,13 @@ div.scrollmenu img:hover {
     font-size: 50px;
 }
 
+#contactTitle{
+    font-size: 50px;
+    color: rgb(37, 114, 116);
+    text-shadow: 2px 2px 4px #9c9999bd;
+
+}
+
 ::-webkit-scrollbar {
     display: none;
     }
